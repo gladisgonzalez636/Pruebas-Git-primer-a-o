@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo1{
+    background-color: #0082BC;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: flex-start;
+    gap: 5px;
+    box-shadow: 0px 0px 50px -3px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+input ,select{
+    height: 30px;
+}
+
+.boton1{
+    height:30px;
+    background-color:#00B4D8;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+}
+
+li{
+    color: rgb(58, 57, 57);
+    padding: 5px;
+}
+
+th{
+    background-color: #0077B6;
+    color: white;
+}
+
+table{
+    width: 100%;
+    padding: 20px;
+    gap: 5px;
+    border-collapse: collapse;
+}
+
+.tab{
+    padding: 20px;
+    background-color:rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 50px -3px rgb(0, 0, 0, 0.2);
+    margin: 30px;
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* tr,th{
+    display: flex;
+    justify-content: space-between;
+} */
+
+th, td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: solid 1px #ddd;
+}
+
+.tuplas{
+    width: 90%;
+    background-color: #F1FAFF ;
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+    margin: 20px;
+    border-left: 4px solid #00bcd4;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.boton2{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 141, 141);
+    border: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+   margin-right: 45px;
+   margin-top: 135px
+}
+
+.Ul{
+    list-style: square;
+    margin-left: 20px;
+}
+
+.titulo3{
+    margin-left: -20px;
+}

@@ -1,0 +1,75 @@
+.con1{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(165, 243, 217);
+    position: static;
+    z-index: 20px;
+    top: -20px;
+    left: 20px;
+}
+
+.con2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(115, 56, 170);
+    position: static;
+    z-index: 100px;
+    top: 20px;
+    left:20px;
+}
+
+
+.in1{
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+
+.in2{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(98, 231, 109);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.on1{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(228, 148, 102);
+    position: relative;
+    top: 20px;
+    left: -20px;
+    right: 50px;
+}
+
+.on2{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(223, 47, 47);
+    position: relative;
+    top: -30px;
+    left: 20px;
+}
+
+.en1{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(236, 229, 132);
+    position: fixed;
+    top: -20px;
+    left: 20px;
+}
+
+.en2{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(109, 79, 105);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
